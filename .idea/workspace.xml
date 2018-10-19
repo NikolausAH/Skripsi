@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4530c47b-5589-4250-bcab-dc8597ca12da" name="Default" comment="" />
+    <list default="true" id="4530c47b-5589-4250-bcab-dc8597ca12da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/DollarInterest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/DollarInterest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/DollarToRupiah.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/DollarToRupiah.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmDollarFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmDollarFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DollarInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DollarInterest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DollarToRupiah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DollarToRupiah.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+            <state relative-caret-position="119">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,36 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneticAlgorithmDollarFunction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java">
+      <file leaf-file-name="DollarInterest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DollarInterest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneticAlgorithmGeneralFunctionChromosome4.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chromosome4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chromosome4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="404">
+              <caret line="524" column="17" selection-start-line="524" selection-start-column="17" selection-end-line="524" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -72,12 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>init</find>
-      <find>muta</find>
-      <find>roule</find>
-      <find>selectedc</find>
-      <find>selectedchromosomes.</find>
-      <find>System.out.println(&quot;Selected Chromosome: &quot; + selectedChromosomes.get(l));</find>
       <find>initializ</find>
       <find>MAE</find>
       <find>simple</find>
@@ -102,7 +81,16 @@
       <find>initwe</find>
       <find>c6</find>
       <find>7</find>
+      <find>chart</find>
+      <find>new Cha</find>
+      <find>valida</find>
+      <find>vali</find>
+      <find>getv</find>
+      <find>value</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,17 +103,17 @@
         <option value="$PROJECT_DIR$/src/Chromosome7.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunction.java" />
         <option value="$PROJECT_DIR$/src/Chromosome3.java" />
-        <option value="$PROJECT_DIR$/src/DollarInterest.java" />
         <option value="$PROJECT_DIR$/src/Chart.java" />
         <option value="$PROJECT_DIR$/src/Chromosome4.java" />
-        <option value="$PROJECT_DIR$/src/DollarToRupiah.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome3.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome4.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome5.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome7.java" />
         <option value="$PROJECT_DIR$/src/Chromosome6.java" />
-        <option value="$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome6.java" />
+        <option value="$PROJECT_DIR$/src/DollarInterest.java" />
+        <option value="$PROJECT_DIR$/src/DollarToRupiah.java" />
+        <option value="$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -150,28 +138,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Prediksi Mata Uang Algoritma Genetika" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prediksi Mata Uang Algoritma Genetika" type="462c0819:PsiDirectoryNode" />
+              <item name="Skripsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Skripsi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Prediksi Mata Uang Algoritma Genetika" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prediksi Mata Uang Algoritma Genetika" type="462c0819:PsiDirectoryNode" />
+              <item name="Skripsi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Skripsi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Prediksi Mata Uang Algoritma Genetika" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -181,7 +165,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled/Skripsi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Skripsi/src/Main.java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -205,7 +189,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Prediksi Mata Uang Algoritma Genetika" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -228,6 +217,9 @@
     <configuration name="Main" type="Java Scratch" factoryName="Java Scratch">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Prediksi Mata Uang Algoritma Genetika" />
+      <method>
+        <option name="MakeProject" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -254,6 +246,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Java Scratch.Main" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -287,37 +288,44 @@
       <workItem from="1538577421301" duration="935000" />
       <workItem from="1539429329680" duration="5254000" />
       <workItem from="1539609605451" duration="2869000" />
-      <workItem from="1539660936268" duration="1443000" />
+      <workItem from="1539660936268" duration="991000" />
+      <workItem from="1539662334440" duration="5733000" />
+      <workItem from="1539676981287" duration="2539000" />
+      <workItem from="1539688177817" duration="2023000" />
+      <workItem from="1539860900244" duration="10454000" />
+      <workItem from="1539915671286" duration="1743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118289000" />
+    <option name="totallyTimeSpent" value="140329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32888147" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22704507" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22704507" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49166667" visible="true" weight="0.21376519" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49166667" visible="true" weight="0.23238866" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.5083333" side_tool="true" weight="0.31012145" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.24939272" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32955465" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,36 +333,35 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32387313" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32888147" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32387313" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22704507" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32888147" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49166667" visible="true" weight="0.19109312" />
       <window_info id="Structure" order="1" sideWeight="0.5083333" side_tool="true" weight="0.31012145" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.24939272" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32955465" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32387313" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32888147" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
@@ -367,7 +374,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="143" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>5</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="149" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -375,16 +392,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chromosome3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -629,45 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chromosome5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DollarInterest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chromosome3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DollarToRupiah.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4522">
-          <caret line="268" column="28" selection-start-line="268" selection-start-column="28" selection-end-line="268" selection-end-column="28" />
-          <folding>
-            <element signature="e#73#74#0" expanded="true" />
-            <element signature="e#106#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -679,9 +647,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="28" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Skripsi/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DollarToRupiah.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#1501#1514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -695,16 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chromosome6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -712,20 +712,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-          <folding>
-            <element signature="e#1715#1728#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chromosome4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <caret line="10" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="e#414#415#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
@@ -733,27 +723,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Chromosome5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chromosome3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state>
+          <caret line="79" column="16" lean-forward="true" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome4.java">
+    <entry file="file://$PROJECT_DIR$/src/DollarInterest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="404">
+          <caret line="524" column="17" selection-start-line="524" selection-start-column="17" selection-end-line="524" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

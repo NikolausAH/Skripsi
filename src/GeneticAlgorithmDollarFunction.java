@@ -65,21 +65,21 @@ public class GeneticAlgorithmDollarFunction {
         double fitness;
         double totalError;
         int i = 0;
-        while (i <= dollarToRupiah.value.length - 6) {
+        while (i < dollarToRupiah.value.length - 4) {
             double prediction =
-                    chromosome4.getTheta() + (chromosome4.getThetaC1() * dollarToRupiah.value[i + 1])
-                            + (chromosome4.getThetaC2() * dollarToRupiah.value[i + 2])
-                            + (chromosome4.getThetaC3() * dollarToRupiah.value[i + 3])
-                            + (chromosome4.getThetaC4() * dollarToRupiah.value[i + 4])
-                            + (chromosome4.getThetaI1() * dollarInterest.value[i + 1])
-                            + (chromosome4.getThetaI2() * dollarInterest.value[i + 2])
-                            + (chromosome4.getThetaI3() * dollarInterest.value[i + 3])
-                            + (chromosome4.getThetaI4() * dollarToRupiah.value[i + 4]);
-            double error = Math.abs(prediction - dollarToRupiah.value[i + 5]);
+                    chromosome4.getTheta() + (chromosome4.getThetaC1() * dollarToRupiah.value[i])
+                            + (chromosome4.getThetaC2() * dollarToRupiah.value[i + 1])
+                            + (chromosome4.getThetaC3() * dollarToRupiah.value[i + 2])
+                            + (chromosome4.getThetaC4() * dollarToRupiah.value[i + 3])
+                            + (chromosome4.getThetaI1() * dollarInterest.value[i])
+                            + (chromosome4.getThetaI2() * dollarInterest.value[i + 1])
+                            + (chromosome4.getThetaI3() * dollarInterest.value[i + 2])
+                            + (chromosome4.getThetaI4() * dollarToRupiah.value[i + 3]);
+            double error = Math.abs(prediction - dollarToRupiah.value[i + 4]);
             sigmaError = error + sigmaError;
             i++;
         }
-        totalError = sigmaError / (dollarToRupiah.value.length - 6);
+        totalError = sigmaError / (dollarToRupiah.value.length - 4);
         fitness = 1 / totalError;
         chromosome4.setFitness(fitness);
         return fitness;

@@ -7,11 +7,11 @@ public class Main {
         long startTime = System.nanoTime();
         int slidingWindow = 4;
         int i = 0;
-        int population = 30;
-        int selection = 10;
+        int population = 10;
+        int selection = 4;
         Double mutationProbability = 0.9;
         double alpha = 0.422;
-        int generation = 100000;
+        int generation = 10000;
 
         if (slidingWindow == 3) {
             System.out.println("Sliding Window 3, Prediksi dollar");
@@ -44,7 +44,8 @@ public class Main {
             generalFunction.showSolution(solution);
             predictionList = dollarFunction.validationCheck3(solution);
 //        Chart
-            Chart chart = new Chart("Dollar Prediction", "Dollar Prediction", predictionList, DollarToRupiah.getValidation());
+
+            Chart chart = new Chart("Dollar Prediction"+ " " + generation+"Generasi", "Dollar Prediction", predictionList, DollarToRupiah.getForValidationTable());
             chart.runChart(chart);
 
         } else if (slidingWindow == 4) {
@@ -86,7 +87,7 @@ public class Main {
 //                System.out.println(pred);
 //            }
 //        Chart
-            Chart chart = new Chart("Dollar Prediction", "Dollar Prediction", predictionList, DollarToRupiah.getValidation());
+            Chart chart = new Chart("Dollar Prediction"+ " " + generation+"Generasi", "Dollar Prediction", predictionList, DollarToRupiah.getValidation());
             chart.runChart(chart);
 
         } else if (slidingWindow == 5) {
@@ -128,7 +129,7 @@ public class Main {
                 System.out.println(pred);
             }
 //        Chart
-            Chart chart = new Chart("Dollar Prediction", "Dollar Prediction", predictionList, DollarToRupiah.getValidation());
+            Chart chart = new Chart("Dollar Prediction"+ " " + generation+"Generasi", "Dollar Prediction", predictionList, DollarToRupiah.getValidation());
             chart.runChart(chart);
         }
         else if (slidingWindow == 6) {
@@ -170,7 +171,7 @@ public class Main {
                 System.out.println(pred);
             }
 //        Chart
-            Chart chart = new Chart("Dollar Prediction", "Dollar Prediction", predictionList, DollarToRupiah.getValidation());
+            Chart chart = new Chart("Dollar Prediction"+ " " + generation+"Generasi", "Dollar Prediction", predictionList, DollarToRupiah.getValidation());
             chart.runChart(chart);
         }
 
@@ -213,7 +214,7 @@ public class Main {
                 System.out.println(pred);
             }
 //        Chart
-            Chart chart = new Chart("Dollar Prediction", "Dollar Prediction", predictionList, DollarToRupiah.getValidation());
+            Chart chart = new Chart("Dollar Prediction"+ " " + generation+"Generasi", "Dollar Prediction", predictionList, DollarToRupiah.getValidation());
             chart.runChart(chart);
         }
         long endTime = System.nanoTime();

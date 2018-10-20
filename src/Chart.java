@@ -13,7 +13,7 @@ public class Chart extends ApplicationFrame {
         super(applicationTitle);
         JFreeChart lineChart = ChartFactory.createLineChart(
                 chartTitle,
-                "Nomor","Prediksi",
+                "Tanggal","Prediksi",
                 createDataset(predictions,currency),
                 PlotOrientation.VERTICAL,
                 true,true,false);

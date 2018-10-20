@@ -38,12 +38,12 @@ public class GeneticAlgorithmGeneralFunctionChromosome3 {
 
     public void initWeight3(Chromosome3 chromosome3) {
         chromosome3.setTheta((Math.random()) % 2000);
-        chromosome3.setThetaI1((Math.random()) % 1);
-        chromosome3.setThetaI2((Math.random()) % 1);
-        chromosome3.setThetaI3((Math.random()) % 1);
-        chromosome3.setThetaC1((Math.random()) % 1000);
-        chromosome3.setThetaC2((Math.random()) % 1000);
-        chromosome3.setThetaC3((Math.random()) % 1000);
+        chromosome3.setThetaI1((Math.random()) % 1000);
+        chromosome3.setThetaI2((Math.random()) % 1000);
+        chromosome3.setThetaI3((Math.random()) % 1000);
+        chromosome3.setThetaC1((Math.random()) % 1);
+        chromosome3.setThetaC2((Math.random()) % 1);
+        chromosome3.setThetaC3((Math.random()) % 1);
     }
 
     public List<Chromosome3> simpleArithmeticCrossover(List<Chromosome3> chromosome3List, Double alpha) {

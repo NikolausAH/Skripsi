@@ -5,12 +5,12 @@ public class Main {
 
     public static void main(String[] args) {
         long startTime = System.nanoTime();
-        int slidingWindow = 4;
+        int slidingWindow = 3;
         int i = 0;
-        int population = 10;
-        int selection = 4;
-        Double mutationProbability = 0.9;
-        double alpha = 0.422;
+        int population = 100;
+        int selection = 80;
+        Double mutationProbability = 0.6;
+        double alpha = 0.4;
         int generation = 10000;
 
         if (slidingWindow == 3) {
@@ -72,10 +72,10 @@ public class Main {
                 generalFunction4.equalList(chromosome4List, matingPool);
                 matingPool.clear();
                 for (Chromosome4 chromosome : chromosome4List) {
-                    System.out.println("Fitnessnya: " + chromosome.getFitness());
+//                    System.out.println("Fitnessnya: " + chromosome.getFitness());
                 }
                 solution = generalFunction4.findSolution(chromosome4List);
-                System.out.println("Paling gede : " + solution.getFitness());
+                System.out.println("Paling gede : " + 1/solution.getFitness());
                 i++;
             }
             solution = generalFunction4.findSolution(chromosome4List);

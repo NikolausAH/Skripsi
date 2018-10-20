@@ -63,7 +63,7 @@ public class GeneticAlgorithmDollarFunction {
     public Double calculateFitness4(Chromosome4 chromosome4) {
         double sigmaError = 0.0;
         double fitness;
-        double totalError;
+        double averageError;
         int i = 0;
         while (i < dollarToRupiah.value.length - 4) {
             double prediction =
@@ -79,8 +79,8 @@ public class GeneticAlgorithmDollarFunction {
             sigmaError = error + sigmaError;
             i++;
         }
-        totalError = sigmaError / (dollarToRupiah.value.length - 4);
-        fitness = 1 / totalError;
+        averageError = sigmaError / (dollarToRupiah.value.length - 4);
+        fitness = 1 / averageError;
         chromosome4.setFitness(fitness);
         return fitness;
     }

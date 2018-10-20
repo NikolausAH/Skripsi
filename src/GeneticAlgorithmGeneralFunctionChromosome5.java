@@ -88,16 +88,16 @@ public class GeneticAlgorithmGeneralFunctionChromosome5 {
     }
     public void initWeight5(Chromosome5 chromosome5) {
         chromosome5.setTheta((Math.random()) % 2000);
-        chromosome5.setThetaI1((Math.random()) % 1);
-        chromosome5.setThetaI2((Math.random()) % 1);
-        chromosome5.setThetaI3((Math.random()) % 1);
-        chromosome5.setThetaI4((Math.random()) % 1);
-        chromosome5.setThetaI5((Math.random()) % 1);
-        chromosome5.setThetaC1((Math.random()) % 1000);
-        chromosome5.setThetaC2((Math.random()) % 1000);
-        chromosome5.setThetaC3((Math.random()) % 1000);
-        chromosome5.setThetaC4((Math.random()) % 1000);
-        chromosome5.setThetaC5((Math.random()) % 1000);
+        chromosome5.setThetaI1((Math.random()) % 1000);
+        chromosome5.setThetaI2((Math.random()) % 1000);
+        chromosome5.setThetaI3((Math.random()) % 1000);
+        chromosome5.setThetaI4((Math.random()) % 1000);
+        chromosome5.setThetaI5((Math.random()) % 1000);
+        chromosome5.setThetaC1((Math.random()) % 1);
+        chromosome5.setThetaC2((Math.random()) % 1);
+        chromosome5.setThetaC3((Math.random()) % 1);
+        chromosome5.setThetaC4((Math.random()) % 1);
+        chromosome5.setThetaC5((Math.random()) % 1);
     }
     public void insert(List<Chromosome5> chromosome5s, List<Chromosome5> chromosome5Inserted) {
         int i = 0;

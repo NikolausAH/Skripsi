@@ -1,19 +1,20 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class GeneticAlgorithmGeneralFunctionChromosome4 {
     GeneticAlgorithmDollarFunction dollarFunction = new GeneticAlgorithmDollarFunction();
 
     public void initWeight4(Chromosome4 chromosome4) {
         chromosome4.setTheta((Math.random()) % 2000);
-        chromosome4.setThetaI1((Math.random()) % 1);
-        chromosome4.setThetaI2((Math.random()) % 1);
-        chromosome4.setThetaI3((Math.random()) % 1);
-        chromosome4.setThetaI4((Math.random()) % 1);
-        chromosome4.setThetaC1((Math.random()) % 1000);
-        chromosome4.setThetaC2((Math.random()) % 1000);
-        chromosome4.setThetaC3((Math.random()) % 1000);
-        chromosome4.setThetaC4((Math.random()) % 1000);
+        chromosome4.setThetaI1((Math.random()) % 1000);
+        chromosome4.setThetaI2((Math.random()) % 1000);
+        chromosome4.setThetaI3((Math.random()) % 1000);
+        chromosome4.setThetaI4((Math.random()) % 1000);
+        chromosome4.setThetaC1((Math.random()) % 1);
+        chromosome4.setThetaC2((Math.random()) % 1);
+        chromosome4.setThetaC3((Math.random()) % 1);
+        chromosome4.setThetaC4((Math.random()) % 1);
     }
 
     public List<Chromosome4> initializePopulation(int quantity) {
@@ -122,38 +123,37 @@ public class GeneticAlgorithmGeneralFunctionChromosome4 {
             chromosome4Before.setThetaC3(chromosome4s.get(i).getThetaC3());
             chromosome4Before.setThetaC4(chromosome4s.get(i).getThetaC4());
             dollarFunction.calculateFitness4(chromosome4Before);
+            Random random = new Random();
             j = 0;
             while (j < 9) {
                 randomNumber = Math.random() % 1;
                 if (randomNumber <= mutationProbability) {
                     if (j == 0) {
-                        chromosome4s.get(i).setTheta(Math.random() % 1625);
+                        chromosome4s.get(i).setTheta(Math.random() % 2000);
                         j++;
                     } else if (j == 1) {
-                        chromosome4s.get(i).setThetaC1(Math.random() % 0.9);
-
+                        chromosome4s.get(i).setThetaC1(Math.random() % 1);
                         j++;
                     } else if (j == 2) {
-                        chromosome4s.get(i).setThetaC2(Math.random() % 0.9);
-
+                        chromosome4s.get(i).setThetaC2(Math.random() % 1);
                         j++;
                     } else if (j == 3) {
-                        chromosome4s.get(i).setThetaC3(Math.random() % 0.9);
+                        chromosome4s.get(i).setThetaC3(Math.random() % 1);
                         j++;
                     }  else if (j == 4) {
-                        chromosome4s.get(i).setThetaC4(Math.random() % 0.9);
+                        chromosome4s.get(i).setThetaC4(Math.random() % 1);
                         j++;
                     }else if (j == 5) {
-                        chromosome4s.get(i).setThetaI1(Math.random() % 900);
+                        chromosome4s.get(i).setThetaI1(Math.random() % 1000);
                         j++;
                     } else if (j == 6) {
-                        chromosome4s.get(i).setThetaI2(Math.random() % 900);
+                        chromosome4s.get(i).setThetaI2(Math.random() % 1000);
                         j++;
                     } else if (j == 7) {
-                        chromosome4s.get(i).setThetaI3(Math.random() % 900);
+                        chromosome4s.get(i).setThetaI3(Math.random() % 1000);
                         j++;
                     } else if (j == 8) {
-                        chromosome4s.get(i).setThetaI4(Math.random() % 900);
+                        chromosome4s.get(i).setThetaI4(Math.random() % 1000);
                         j++;
                     }
                 }

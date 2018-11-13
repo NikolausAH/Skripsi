@@ -1,6 +1,5 @@
 public class YuanToRupiah {
     static Double[] value = {
-            0.0,
             1995.62,
             2020.99,
             2037.84,

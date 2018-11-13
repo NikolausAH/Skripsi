@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/Main.java" description="            List&lt;Double&gt; predictionList;&#10;" line="11" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4530c47b-5589-4250-bcab-dc8597ca12da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chromosome2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GeneticAlgorithmCurrencyInterestFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/DollarInterest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/DollarInterest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/DollarToRupiah.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/DollarToRupiah.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmDollarFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmDollarFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/Chart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/Chart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/Chromosome3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/Chromosome3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/DollarInterest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/DollarToRupiah.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmDollarFunction.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmGeneralFunctionChromosome3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmGeneralFunctionChromosome3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmGeneralFunctionChromosome4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmGeneralFunctionChromosome4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmGeneralFunctionChromosome5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmGeneralFunctionChromosome5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmGeneralFunctonChromosome6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmGeneralFunctonChromosome6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmGeneralFunctonChromosome7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/GeneticAlgorithmGeneralFunctonChromosome7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DollarInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DollarInterest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DollarToRupiah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DollarToRupiah.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/YuanInterest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/YuanInterest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/YuanToRupiah.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Prediksi Mata Uang Algoritma Genetika/YuanToRupiah.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chromosome3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chromosome3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DollarInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DollarToRupiah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YuanInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YuanInterest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YuanToRupiah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/YuanToRupiah.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,16 +47,39 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Prediksi_Mata_Uang_Algoritma_Genetika$Main.ic" NAME="Main Coverage Results" MODIFIED="1538145897801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="833">
+              <caret line="49" column="169" selection-start-line="49" selection-start-column="169" selection-end-line="49" selection-end-column="169" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Currency.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Currency.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -54,36 +95,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>initia</find>
-      <find>initw</find>
-      <find>calc</find>
-      <find>roulett</find>
-      <find>inser</find>
-      <find>calculat</find>
-      <find>generation</find>
-      <find>findsol</find>
-      <find>shows</find>
+      <find>mutatio</find>
       <find>initwe</find>
-      <find>c6</find>
-      <find>7</find>
-      <find>chart</find>
-      <find>new Cha</find>
-      <find>valida</find>
-      <find>vali</find>
-      <find>getv</find>
-      <find>value</find>
-      <find>calculate</find>
-      <find>initweig</find>
-      <find>initweight4</find>
-      <find>initweight3</find>
-      <find>1000</find>
-      <find>settheta</find>
-      <find>fitnessnya</find>
-      <find>calculatefit</find>
-      <find>MAE</find>
+      <find>simple</find>
+      <find>insert</find>
+      <find>inser</find>
       <find>mutation</find>
+      <find>calculat</find>
+      <find>generationup</find>
+      <find>findso</find>
+      <find>shows</find>
+      <find>quantity</find>
+      <find>initia</find>
+      <find>system.</find>
+      <find>println</find>
+      <find>printl</find>
+      <find>prediction</find>
+      <find>roulett</find>
+      <find>updat</find>
+      <find>muta</find>
+      <find>simplear</find>
+      <find>valida</find>
+      <find>validat</find>
+      <find>vALIDA</find>
       <find>fitness</find>
-      <find>nomor</find>
+      <find>validation</find>
+      <find>MAE</find>
+      <find>crossov</find>
+      <find>count</find>
+      <find>testing</find>
+      <find>mapd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,24 +135,31 @@
       <list>
         <option value="$PROJECT_DIR$/src/Chromosome1.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithmFunction.java" />
-        <option value="$PROJECT_DIR$/src/YuanInterest.java" />
-        <option value="$PROJECT_DIR$/src/YuanToRupiah.java" />
         <option value="$PROJECT_DIR$/src/Chromosome5.java" />
         <option value="$PROJECT_DIR$/src/Chromosome7.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunction.java" />
-        <option value="$PROJECT_DIR$/src/Chromosome3.java" />
-        <option value="$PROJECT_DIR$/src/Chart.java" />
         <option value="$PROJECT_DIR$/src/Chromosome4.java" />
-        <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome7.java" />
         <option value="$PROJECT_DIR$/src/Chromosome6.java" />
-        <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome6.java" />
-        <option value="$PROJECT_DIR$/src/DollarInterest.java" />
-        <option value="$PROJECT_DIR$/src/DollarToRupiah.java" />
-        <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome5.java" />
+        <option value="$PROJECT_DIR$/src/Chart.java" />
+        <option value="$PROJECT_DIR$/src/src/GeneticAlgorithmGeneralFunctionChromosome2.java" />
+        <option value="$PROJECT_DIR$/src/Main2.java" />
+        <option value="$PROJECT_DIR$/src/Chromosome3.java" />
+        <option value="$PROJECT_DIR$/src/Chromosome2.java" />
+        <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome3.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome4.java" />
+        <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome5.java" />
+        <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome6.java" />
+        <option value="$PROJECT_DIR$/src/YuanInterest.java" />
+        <option value="$PROJECT_DIR$/src/DollarToRupiah.java" />
+        <option value="$PROJECT_DIR$/src/DollarInterest.java" />
         <option value="$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java" />
+        <option value="$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome7.java" />
+        <option value="$PROJECT_DIR$/src/YuanToRupiah.java" />
+        <option value="$PROJECT_DIR$/src/Interest.java" />
+        <option value="$PROJECT_DIR$/src/GeneticAlgorithmCurrencyInterestFunction.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Currency.java" />
       </list>
     </option>
   </component>
@@ -135,8 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,6 +200,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,17 +210,21 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Skripsi/src/Main.java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/spaceIntruders" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+      <recent name="src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,6 +242,11 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Prediksi Mata Uang Algoritma Genetika" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main2" />
       <module name="Prediksi Mata Uang Algoritma Genetika" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -247,10 +304,12 @@
     <list>
       <item itemvalue="Java Scratch.Main" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -294,12 +353,25 @@
       <workItem from="1539915671286" duration="5831000" />
       <workItem from="1539955179785" duration="269000" />
       <workItem from="1539955480799" duration="208000" />
-      <workItem from="1540009898367" duration="2316000" />
+      <workItem from="1540009898367" duration="13063000" />
+      <workItem from="1540040155667" duration="2847000" />
+      <workItem from="1540099935600" duration="22359000" />
+      <workItem from="1540173533782" duration="2730000" />
+      <workItem from="1540189235541" duration="10958000" />
+      <workItem from="1540365042241" duration="1796000" />
+      <workItem from="1540451120735" duration="26000" />
+      <workItem from="1540451482539" duration="9138000" />
+      <workItem from="1540710345840" duration="38267000" />
+      <workItem from="1540804941493" duration="2026000" />
+      <workItem from="1540921589352" duration="864000" />
+      <workItem from="1540950783149" duration="348000" />
+      <workItem from="1541832570315" duration="38000" />
+      <workItem from="1542089573057" duration="242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147210000" />
+    <option name="totallyTimeSpent" value="249596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -307,65 +379,66 @@
     <layout>
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32561985" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34380165" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22704507" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49166667" weight="0.24453442" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49028078" visible="true" weight="0.24939272" />
       <window_info anchor="bottom" id="Statistic" order="11" weight="0.32888147" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info id="Structure" order="1" sideWeight="0.5083333" side_tool="true" weight="0.31012145" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32955465" />
+      <window_info id="Structure" order="1" sideWeight="0.5097192" side_tool="true" weight="0.24453442" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.24939272" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32888147" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32387313" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32231405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32955465" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32955465" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22704507" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32888147" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49166667" visible="true" weight="0.19109312" />
-      <window_info id="Structure" order="1" sideWeight="0.5083333" side_tool="true" weight="0.31012145" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.24939272" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32955465" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22809917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32387313" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32955465" />
+      <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="11" weight="0.32888147" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49028078" visible="true" weight="0.27449393" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32561985" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" sideWeight="0.5097192" side_tool="true" weight="0.24453442" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32387313" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39899832" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,13 +451,93 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>6</line>
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java</url>
+          <line>231</line>
           <properties />
-          <option name="timeStamp" value="155" />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java</url>
+          <line>228</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java</url>
+          <line>220</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java</url>
+          <line>223</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java</url>
+          <line>222</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java</url>
+          <line>225</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java</url>
+          <line>224</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java</url>
+          <line>227</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java</url>
+          <line>210</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java</url>
+          <line>211</line>
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmCurrencyInterestFunction.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GeneticAlgorithmCurrencyInterestFunction.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>5</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="193" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="162" />
+      <option name="time" value="194" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -392,34 +545,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chromosome3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chromosome5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chromosome7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DollarInterest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -427,7 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java">
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmCurrencyInterestFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="45" selection-start-column="45" selection-end-column="45" />
@@ -448,7 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DollarToRupiah.java">
+    <entry file="file://$PROJECT_DIR$/src/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
@@ -479,7 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DollarInterest.java">
+    <entry file="file://$PROJECT_DIR$/src/Interest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
@@ -493,7 +618,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java">
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmCurrencyInterestFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="45" selection-start-column="45" selection-end-column="45" />
@@ -542,28 +667,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DollarInterest.java">
+    <entry file="file://$PROJECT_DIR$/src/Interest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DollarToRupiah.java">
+    <entry file="file://$PROJECT_DIR$/src/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java">
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmCurrencyInterestFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DollarToRupiah.java">
+    <entry file="file://$PROJECT_DIR$/src/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
@@ -598,7 +723,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DollarInterest.java">
+    <entry file="file://$PROJECT_DIR$/src/Interest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7854">
           <caret line="462" column="8" selection-start-line="462" selection-start-column="8" selection-end-line="784" selection-end-column="15" />
@@ -612,7 +737,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java">
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmCurrencyInterestFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
@@ -622,47 +747,8 @@
     <entry file="file://$PROJECT_DIR$/Prediksi Mata Uang Algoritma Genetika.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/YuanInterest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/YuanToRupiah.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Skripsi/src/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DollarToRupiah.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chromosome7.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -692,59 +778,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DollarInterest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/GeneticAlgorithmGeneralFunctionChromosome2.java" />
     <entry file="file://$PROJECT_DIR$/src/Chromosome3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="272">
+          <caret line="20" selection-end-line="93" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome7.java">
+    <entry file="file://$PROJECT_DIR$/src/Chromosome2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        <state relative-caret-position="452">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmDollarFunction.java">
+    <entry file="file://$PROJECT_DIR$/src/Main2.java" />
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        <state relative-caret-position="552">
+          <caret line="78" column="13" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="78" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="43" column="64" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="64" />
+        <state relative-caret-position="51">
+          <caret line="83" column="12" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="113" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="258" column="12" lean-forward="true" selection-start-line="258" selection-start-column="12" selection-end-line="295" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="123" column="12" lean-forward="true" selection-start-line="123" selection-start-column="12" selection-end-line="126" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctonChromosome7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YuanToRupiah.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" lean-forward="true" selection-end-line="794" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/YuanInterest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="193" column="17" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="193" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmGeneralFunctionChromosome2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="28" column="129" lean-forward="true" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="129" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="1341" lean-forward="true" selection-start-line="1341" selection-end-line="1341" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GeneticAlgorithmCurrencyInterestFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="833">
+          <caret line="49" column="169" selection-start-line="49" selection-start-column="169" selection-end-line="49" selection-end-column="169" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

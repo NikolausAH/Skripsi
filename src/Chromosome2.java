@@ -1,31 +1,12 @@
-public class Chromosome3 {
-
+public class Chromosome2 {
     private Double theta;
     private Double thetaC1;
     private Double thetaC2;
-    private Double thetaC3;
     private Double thetaI1;
     private Double thetaI2;
-    private Double thetaI3;
     private Double fitness;
     private Double UpperFitnessRange;
     private Double LowerFitnessRange;
-
-    public Double getUpperFitnessRange() {
-        return UpperFitnessRange;
-    }
-
-    public void setUpperFitnessRange(Double upperFitnessRange) {
-        UpperFitnessRange = upperFitnessRange;
-    }
-
-    public Double getLowerFitnessRange() {
-        return LowerFitnessRange;
-    }
-
-    public void setLowerFitnessRange(Double lowerFitnessRange) {
-        LowerFitnessRange = lowerFitnessRange;
-    }
 
     public Double getTheta() {
         return theta;
@@ -33,14 +14,6 @@ public class Chromosome3 {
 
     public void setTheta(Double theta) {
         this.theta = theta;
-    }
-
-    public Double getFitness() {
-        return fitness;
-    }
-
-    public void setFitness(Double fitness) {
-        this.fitness = fitness;
     }
 
     public Double getThetaC1() {
@@ -59,14 +32,6 @@ public class Chromosome3 {
         this.thetaC2 = thetaC2;
     }
 
-    public Double getThetaC3() {
-        return thetaC3;
-    }
-
-    public void setThetaC3(Double thetaC3) {
-        this.thetaC3 = thetaC3;
-    }
-
     public Double getThetaI1() {
         return thetaI1;
     }
@@ -83,11 +48,27 @@ public class Chromosome3 {
         this.thetaI2 = thetaI2;
     }
 
-    public Double getThetaI3() {
-        return thetaI3;
+    public Double getFitness() {
+        return fitness;
     }
 
-    public void setThetaI3(Double thetaI3) {
-        this.thetaI3 = thetaI3;
+    public void setFitness(Double fitness) {
+        this.fitness = fitness;
+    }
+
+    public Double getUpperFitnessRange() {
+        return UpperFitnessRange;
+    }
+
+    public void setUpperFitnessRange(Double upperFitnessRange) {
+        UpperFitnessRange = upperFitnessRange;
+    }
+
+    public Double getLowerFitnessRange() {
+        return LowerFitnessRange;
+    }
+
+    public void setLowerFitnessRange(Double lowerFitnessRange) {
+        LowerFitnessRange = lowerFitnessRange;
     }
 }

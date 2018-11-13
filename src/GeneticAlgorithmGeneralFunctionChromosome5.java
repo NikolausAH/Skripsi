@@ -3,7 +3,7 @@ import java.util.List;
 
 public class GeneticAlgorithmGeneralFunctionChromosome5 {
 
-    GeneticAlgorithmDollarFunction dollarFunction = new GeneticAlgorithmDollarFunction();
+    GeneticAlgorithmCurrencyInterestFunction dollarFunction = new GeneticAlgorithmCurrencyInterestFunction();
     public void calculateFitness(List<Chromosome5> chromosome5s) {
         int j = 0;
         while (j < chromosome5s.size()) {
@@ -248,27 +248,52 @@ public class GeneticAlgorithmGeneralFunctionChromosome5 {
         }
         return selectedChromosomes;
     }
-    public List<Chromosome5> simpleArithmeticCrossover(List<Chromosome5> chromosome5List, Double alpha) {
+    public List<Chromosome5> simpleArithmeticCrossover(List<Chromosome5> chromosome5List, Double alpha, Integer crossoverPoint) {
         List<Chromosome5> offsprings = new ArrayList<>();
         int i = 0;
         int j = 0;
         double alphaComplement = 1 - alpha;
         int process = 0;
         while (process < chromosome5List.size()) {
-            Chromosome5 chromosome5 = new Chromosome5();
-            chromosome5.setTheta((chromosome5List.get(i).getTheta() * alpha) + (chromosome5List.get(process + 1).getTheta() * alphaComplement));
-            chromosome5.setThetaI1((chromosome5List.get(i).getThetaI1() * alpha) + (chromosome5List.get(process + 1).getThetaI1() * alphaComplement));
-            chromosome5.setThetaI2((chromosome5List.get(i).getThetaI2() * alpha) + (chromosome5List.get(process + 1).getThetaI2() * alphaComplement));
-            chromosome5.setThetaI3((chromosome5List.get(i).getThetaI3() * alpha) + (chromosome5List.get(process + 1).getThetaI3() * alphaComplement));
-            chromosome5.setThetaI4((chromosome5List.get(i).getThetaI4() * alpha) + (chromosome5List.get(process + 1).getThetaI4() * alphaComplement));
-            chromosome5.setThetaI5((chromosome5List.get(i).getThetaI5() * alpha) + (chromosome5List.get(process + 1).getThetaI5() * alphaComplement));
-            chromosome5.setThetaC1((chromosome5List.get(i).getThetaC1() * alpha) + (chromosome5List.get(process + 1).getThetaC1() * alphaComplement));
-            chromosome5.setThetaC2((chromosome5List.get(i).getThetaC2() * alpha) + (chromosome5List.get(process + 1).getThetaC2() * alphaComplement));
-            chromosome5.setThetaC3((chromosome5List.get(i).getThetaC3() * alpha) + (chromosome5List.get(process + 1).getThetaC3() * alphaComplement));
-            chromosome5.setThetaC4((chromosome5List.get(i).getThetaC4() * alpha) + (chromosome5List.get(process + 1).getThetaC4() * alphaComplement));
-            chromosome5.setThetaC5((chromosome5List.get(i).getThetaC5() * alpha) + (chromosome5List.get(process + 1).getThetaC5() * alphaComplement));
-            process += 2;
-            offsprings.add(chromosome5);
+            Chromosome5 chromosome5 = chromosome5List.get(i);
+            if (crossoverPoint == 0) {
+                chromosome5.setTheta((chromosome5List.get(i).getTheta() * alpha) + (chromosome5List.get(process + 1).getTheta() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 1) {
+                chromosome5.setThetaI1((chromosome5List.get(i).getThetaI1() * alpha) + (chromosome5List.get(process + 1).getThetaI1() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 2) {
+                chromosome5.setThetaI2((chromosome5List.get(i).getThetaI2() * alpha) + (chromosome5List.get(process + 1).getThetaI2() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 3) {
+                chromosome5.setThetaI3((chromosome5List.get(i).getThetaI3() * alpha) + (chromosome5List.get(process + 1).getThetaI3() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 4) {
+                chromosome5.setThetaI4((chromosome5List.get(i).getThetaI4() * alpha) + (chromosome5List.get(process + 1).getThetaI4() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 5) {
+                chromosome5.setThetaI5((chromosome5List.get(i).getThetaI5() * alpha) + (chromosome5List.get(process + 1).getThetaI5() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 6) {
+                chromosome5.setThetaC1((chromosome5List.get(i).getThetaC1() * alpha) + (chromosome5List.get(process + 1).getThetaC1() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 7) {
+                chromosome5.setThetaC2((chromosome5List.get(i).getThetaC2() * alpha) + (chromosome5List.get(process + 1).getThetaC2() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 8) {
+                chromosome5.setThetaC3((chromosome5List.get(i).getThetaC3() * alpha) + (chromosome5List.get(process + 1).getThetaC3() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 9) {
+                chromosome5.setThetaC4((chromosome5List.get(i).getThetaC4() * alpha) + (chromosome5List.get(process + 1).getThetaC4() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 10) {
+                chromosome5.setThetaC5((chromosome5List.get(i).getThetaC5() * alpha) + (chromosome5List.get(process + 1).getThetaC5() * alphaComplement));
+                crossoverPoint++;
+            }
+            else {
+                process += 2;
+                offsprings.add(chromosome5);
+            }
         }
         while (j < offsprings.size()) {
             dollarFunction.calculateFitness5(offsprings.get(j));

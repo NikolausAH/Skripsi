@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GeneticAlgorithmGeneralFunctonChromosome6 {
-    GeneticAlgorithmDollarFunction dollarFunction = new GeneticAlgorithmDollarFunction();
+    GeneticAlgorithmCurrencyInterestFunction dollarFunction = new GeneticAlgorithmCurrencyInterestFunction();
 
     public void initWeight6(Chromosome6 chromosome6) {
         chromosome6.setTheta((Math.random()) % 2000);
@@ -33,7 +33,7 @@ public class GeneticAlgorithmGeneralFunctonChromosome6 {
         return chromosome6List;
     }
     public List<Chromosome6> rouletteWheelSelection(List<Chromosome6> chromosome6List, int selectedQuantity) {
-        System.out.println("RWS");
+//        System.out.println("RWS");
         int i = 0;
         int j = 0;
         int k;
@@ -73,29 +73,58 @@ public class GeneticAlgorithmGeneralFunctonChromosome6 {
         }
         return selectedChromosomes;
     }
-    public List<Chromosome6> simpleArithmeticCrossover(List<Chromosome6> chromosome6List, Double alpha) {
+    public List<Chromosome6> simpleArithmeticCrossover(List<Chromosome6> chromosome6List, Double alpha, Integer crossoverPoint) {
         List<Chromosome6> offsprings = new ArrayList<>();
         int i = 0;
         int j = 0;
         double alphaComplement = 1 - alpha;
         int process = 0;
         while (process < chromosome6List.size()) {
-            Chromosome6 chromosome6 = new Chromosome6();
-            chromosome6.setTheta((chromosome6List.get(i).getTheta() * alpha) + (chromosome6List.get(process + 1).getTheta() * alphaComplement));
-            chromosome6.setThetaI1((chromosome6List.get(i).getThetaI1() * alpha) + (chromosome6List.get(process + 1).getThetaI1() * alphaComplement));
-            chromosome6.setThetaI2((chromosome6List.get(i).getThetaI2() * alpha) + (chromosome6List.get(process + 1).getThetaI2() * alphaComplement));
-            chromosome6.setThetaI3((chromosome6List.get(i).getThetaI3() * alpha) + (chromosome6List.get(process + 1).getThetaI3() * alphaComplement));
-            chromosome6.setThetaI4((chromosome6List.get(i).getThetaI4() * alpha) + (chromosome6List.get(process + 1).getThetaI4() * alphaComplement));
-            chromosome6.setThetaI5((chromosome6List.get(i).getThetaI5() * alpha) + (chromosome6List.get(process + 1).getThetaI5() * alphaComplement));
-            chromosome6.setThetaI6((chromosome6List.get(i).getThetaI6() * alpha) + (chromosome6List.get(process + 1).getThetaI6() * alphaComplement));
-            chromosome6.setThetaC1((chromosome6List.get(i).getThetaC1() * alpha) + (chromosome6List.get(process + 1).getThetaC1() * alphaComplement));
-            chromosome6.setThetaC2((chromosome6List.get(i).getThetaC2() * alpha) + (chromosome6List.get(process + 1).getThetaC2() * alphaComplement));
-            chromosome6.setThetaC3((chromosome6List.get(i).getThetaC3() * alpha) + (chromosome6List.get(process + 1).getThetaC3() * alphaComplement));
-            chromosome6.setThetaC4((chromosome6List.get(i).getThetaC4() * alpha) + (chromosome6List.get(process + 1).getThetaC4() * alphaComplement));
-            chromosome6.setThetaC5((chromosome6List.get(i).getThetaC5() * alpha) + (chromosome6List.get(process + 1).getThetaC5() * alphaComplement));
-            chromosome6.setThetaC6((chromosome6List.get(i).getThetaC6() * alpha) + (chromosome6List.get(process + 1).getThetaC6() * alphaComplement));
-            process += 2;
-            offsprings.add(chromosome6);
+            Chromosome6 chromosome6 = chromosome6List.get(i);
+            if (crossoverPoint == 0) {
+                chromosome6.setTheta((chromosome6List.get(i).getTheta() * alpha) + (chromosome6List.get(process + 1).getTheta() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 1) {
+                chromosome6.setThetaI1((chromosome6List.get(i).getThetaI1() * alpha) + (chromosome6List.get(process + 1).getThetaI1() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 2) {
+                chromosome6.setThetaI2((chromosome6List.get(i).getThetaI2() * alpha) + (chromosome6List.get(process + 1).getThetaI2() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 3) {
+                chromosome6.setThetaI3((chromosome6List.get(i).getThetaI3() * alpha) + (chromosome6List.get(process + 1).getThetaI3() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 4) {
+                chromosome6.setThetaI4((chromosome6List.get(i).getThetaI4() * alpha) + (chromosome6List.get(process + 1).getThetaI4() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 5) {
+                chromosome6.setThetaI5((chromosome6List.get(i).getThetaI5() * alpha) + (chromosome6List.get(process + 1).getThetaI5() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 6) {
+                chromosome6.setThetaI6((chromosome6List.get(i).getThetaI6() * alpha) + (chromosome6List.get(process + 1).getThetaI6() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 7) {
+                chromosome6.setThetaC1((chromosome6List.get(i).getThetaC1() * alpha) + (chromosome6List.get(process + 1).getThetaC1() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 8) {
+                chromosome6.setThetaC2((chromosome6List.get(i).getThetaC2() * alpha) + (chromosome6List.get(process + 1).getThetaC2() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 9) {
+                chromosome6.setThetaC3((chromosome6List.get(i).getThetaC3() * alpha) + (chromosome6List.get(process + 1).getThetaC3() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 10) {
+                chromosome6.setThetaC4((chromosome6List.get(i).getThetaC4() * alpha) + (chromosome6List.get(process + 1).getThetaC4() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 11) {
+                chromosome6.setThetaC5((chromosome6List.get(i).getThetaC5() * alpha) + (chromosome6List.get(process + 1).getThetaC5() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 12) {
+                chromosome6.setThetaC6((chromosome6List.get(i).getThetaC6() * alpha) + (chromosome6List.get(process + 1).getThetaC6() * alphaComplement));
+                crossoverPoint++;
+            }
+            else {
+                process += 2;
+                offsprings.add(chromosome6);
+            }
         }
         while (j < offsprings.size()) {
             dollarFunction.calculateFitness6(offsprings.get(j));

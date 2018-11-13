@@ -3,14 +3,14 @@ import java.util.List;
 import java.util.Random;
 
 public class GeneticAlgorithmGeneralFunctionChromosome4 {
-    GeneticAlgorithmDollarFunction dollarFunction = new GeneticAlgorithmDollarFunction();
+    GeneticAlgorithmCurrencyInterestFunction dollarFunction = new GeneticAlgorithmCurrencyInterestFunction();
 
     public void initWeight4(Chromosome4 chromosome4) {
-        chromosome4.setTheta((Math.random()) % 2000);
-        chromosome4.setThetaI1((Math.random()) % 1000);
-        chromosome4.setThetaI2((Math.random()) % 1000);
-        chromosome4.setThetaI3((Math.random()) % 1000);
-        chromosome4.setThetaI4((Math.random()) % 1000);
+        chromosome4.setTheta((Math.random()) % 1);
+        chromosome4.setThetaI1((Math.random()) % 1);
+        chromosome4.setThetaI2((Math.random()) % 1);
+        chromosome4.setThetaI3((Math.random()) % 1);
+        chromosome4.setThetaI4((Math.random()) % 1);
         chromosome4.setThetaC1((Math.random()) % 1);
         chromosome4.setThetaC2((Math.random()) % 1);
         chromosome4.setThetaC3((Math.random()) % 1);
@@ -23,12 +23,13 @@ public class GeneticAlgorithmGeneralFunctionChromosome4 {
         while (i < quantity) {
             chromosome4List.add(new Chromosome4());
             initWeight4(chromosome4List.get(i));
-            Chromosome4 chromosome4= chromosome4List.get(i);
+            Chromosome4 chromosome4 = chromosome4List.get(i);
             dollarFunction.calculateFitness4(chromosome4);
             i++;
         }
         return chromosome4List;
     }
+
     public List<Chromosome4> rouletteWheelSelection(List<Chromosome4> chromosome4List, int selectedQuantity) {
         System.out.println("RWS");
         int i = 0;
@@ -71,25 +72,46 @@ public class GeneticAlgorithmGeneralFunctionChromosome4 {
         return selectedChromosomes;
     }
 
-    public List<Chromosome4> simpleArithmeticCrossover(List<Chromosome4> chromosome4List, Double alpha) {
+    public List<Chromosome4> simpleArithmeticCrossover(List<Chromosome4> chromosome4List, Double alpha, Integer crossoverPoint) {
         List<Chromosome4> offsprings = new ArrayList<>();
         int i = 0;
         int j = 0;
         double alphaComplement = 1 - alpha;
         int process = 0;
         while (process < chromosome4List.size()) {
-            Chromosome4 chromosome4 = new Chromosome4();
-            chromosome4.setTheta((chromosome4List.get(i).getTheta() * alpha) + (chromosome4List.get(process + 1).getTheta() * alphaComplement));
-            chromosome4.setThetaI1((chromosome4List.get(i).getThetaI1() * alpha) + (chromosome4List.get(process + 1).getThetaI1() * alphaComplement));
-            chromosome4.setThetaI2((chromosome4List.get(i).getThetaI2() * alpha) + (chromosome4List.get(process + 1).getThetaI2() * alphaComplement));
-            chromosome4.setThetaI3((chromosome4List.get(i).getThetaI3() * alpha) + (chromosome4List.get(process + 1).getThetaI3() * alphaComplement));
-            chromosome4.setThetaI4((chromosome4List.get(i).getThetaI4() * alpha) + (chromosome4List.get(process + 1).getThetaI4() * alphaComplement));
-            chromosome4.setThetaC1((chromosome4List.get(i).getThetaC1() * alpha) + (chromosome4List.get(process + 1).getThetaC1() * alphaComplement));
-            chromosome4.setThetaC2((chromosome4List.get(i).getThetaC2() * alpha) + (chromosome4List.get(process + 1).getThetaC2() * alphaComplement));
-            chromosome4.setThetaC3((chromosome4List.get(i).getThetaC3() * alpha) + (chromosome4List.get(process + 1).getThetaC3() * alphaComplement));
-            chromosome4.setThetaC4((chromosome4List.get(i).getThetaC4() * alpha) + (chromosome4List.get(process + 1).getThetaC4() * alphaComplement));
-            process += 2;
-            offsprings.add(chromosome4);
+            Chromosome4 chromosome4 = chromosome4List.get(i);
+
+            if (crossoverPoint == 0) {
+                chromosome4.setTheta((chromosome4List.get(i).getTheta() * alpha) + (chromosome4List.get(process + 1).getTheta() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 1) {
+                chromosome4.setThetaI1((chromosome4List.get(i).getThetaI1() * alpha) + (chromosome4List.get(process + 1).getThetaI1() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 2) {
+                chromosome4.setThetaI2((chromosome4List.get(i).getThetaI2() * alpha) + (chromosome4List.get(process + 1).getThetaI2() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 3) {
+                chromosome4.setThetaI3((chromosome4List.get(i).getThetaI3() * alpha) + (chromosome4List.get(process + 1).getThetaI3() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 4) {
+                chromosome4.setThetaI4((chromosome4List.get(i).getThetaI4() * alpha) + (chromosome4List.get(process + 1).getThetaI4() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 5) {
+                chromosome4.setThetaC1((chromosome4List.get(i).getThetaC1() * alpha) + (chromosome4List.get(process + 1).getThetaC1() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 6) {
+                chromosome4.setThetaC2((chromosome4List.get(i).getThetaC2() * alpha) + (chromosome4List.get(process + 1).getThetaC2() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 7) {
+                chromosome4.setThetaC3((chromosome4List.get(i).getThetaC3() * alpha) + (chromosome4List.get(process + 1).getThetaC3() * alphaComplement));
+                crossoverPoint++;
+            } else if (crossoverPoint == 8) {
+                chromosome4.setThetaC4((chromosome4List.get(i).getThetaC4() * alpha) + (chromosome4List.get(process + 1).getThetaC4() * alphaComplement));
+                crossoverPoint++;
+            } else {
+                process += 2;
+                offsprings.add(chromosome4);
+            }
         }
         while (j < offsprings.size()) {
             dollarFunction.calculateFitness4(offsprings.get(j));
@@ -97,6 +119,7 @@ public class GeneticAlgorithmGeneralFunctionChromosome4 {
         }
         return offsprings;
     }
+
     public void insert(List<Chromosome4> chromosome4s, List<Chromosome4> chromosome4Inserted) {
         int i = 0;
         while (i < chromosome4Inserted.size()) {
@@ -108,7 +131,7 @@ public class GeneticAlgorithmGeneralFunctionChromosome4 {
     public void mutation(List<Chromosome4> chromosome4s, Double mutationProb) {
         int i = 0;
         int j;
-        double randomNumber ;
+        double randomNumber;
         double mutationProbability = mutationProb;
         while (i < chromosome4s.size()) {
 //                System.out.println("Chromosome sebelum mutasi "+": "+chromosome5s.get(i).getFitness());
@@ -129,7 +152,7 @@ public class GeneticAlgorithmGeneralFunctionChromosome4 {
                 randomNumber = Math.random() % 1;
                 if (randomNumber <= mutationProbability) {
                     if (j == 0) {
-                        chromosome4s.get(i).setTheta(Math.random() % 2000);
+                        chromosome4s.get(i).setTheta(Math.random() % 1);
                         j++;
                     } else if (j == 1) {
                         chromosome4s.get(i).setThetaC1(Math.random() % 1);
@@ -140,27 +163,27 @@ public class GeneticAlgorithmGeneralFunctionChromosome4 {
                     } else if (j == 3) {
                         chromosome4s.get(i).setThetaC3(Math.random() % 1);
                         j++;
-                    }  else if (j == 4) {
+                    } else if (j == 4) {
                         chromosome4s.get(i).setThetaC4(Math.random() % 1);
                         j++;
-                    }else if (j == 5) {
-                        chromosome4s.get(i).setThetaI1(Math.random() % 1000);
+                    } else if (j == 5) {
+                        chromosome4s.get(i).setThetaI1(Math.random() % 1);
                         j++;
                     } else if (j == 6) {
-                        chromosome4s.get(i).setThetaI2(Math.random() % 1000);
+                        chromosome4s.get(i).setThetaI2(Math.random() % 1);
                         j++;
                     } else if (j == 7) {
-                        chromosome4s.get(i).setThetaI3(Math.random() % 1000);
+                        chromosome4s.get(i).setThetaI3(Math.random() % 1);
                         j++;
                     } else if (j == 8) {
-                        chromosome4s.get(i).setThetaI4(Math.random() % 1000);
+                        chromosome4s.get(i).setThetaI4(Math.random() % 1);
                         j++;
                     }
                 }
                 j++;
             }
             dollarFunction.calculateFitness4(chromosome4s.get(i));
-            if(chromosome4s.get(i).getFitness()<chromosome4Before.getFitness()) {
+            if (chromosome4s.get(i).getFitness() < chromosome4Before.getFitness()) {
                 chromosome4s.get(i).setTheta(chromosome4Before.getTheta());
 
                 chromosome4s.get(i).setThetaC1(chromosome4Before.getThetaC1());
@@ -173,11 +196,12 @@ public class GeneticAlgorithmGeneralFunctionChromosome4 {
                 chromosome4s.get(i).setThetaI3(chromosome4Before.getThetaI3());
                 chromosome4s.get(i).setThetaI4(chromosome4Before.getThetaI4());
                 dollarFunction.calculateFitness4(chromosome4s.get(i));
-          }
+            }
             i++;
         }
 
     }
+
     public void calculateFitness(List<Chromosome4> chromosome4s) {
         int j = 0;
         while (j < chromosome4s.size()) {
@@ -185,60 +209,60 @@ public class GeneticAlgorithmGeneralFunctionChromosome4 {
             j++;
         }
     }
-    public void generationUpdate(List<Chromosome4> chromosome4s,int population) {
-        int i=0;
-        int j=0;
-        while(chromosome4s.size()>population){
+
+    public void generationUpdate(List<Chromosome4> chromosome4s, int population) {
+        int i = 0;
+        int j = 0;
+        while (chromosome4s.size() > population) {
             double lowest = chromosome4s.get(0).getFitness();
-            while(i<chromosome4s.size()){
-                if(lowest>chromosome4s.get(i).getFitness()){
-                    lowest=chromosome4s.get(i).getFitness();
-                }
-                else
+            while (i < chromosome4s.size()) {
+                if (lowest > chromosome4s.get(i).getFitness()) {
+                    lowest = chromosome4s.get(i).getFitness();
+                } else
                     i++;
             }
-            while(j<chromosome4s.size()&&chromosome4s.size()>population){
-                if(lowest==chromosome4s.get(j).getFitness()){
+            while (j < chromosome4s.size() && chromosome4s.size() > population) {
+                if (lowest == chromosome4s.get(j).getFitness()) {
                     chromosome4s.remove(j);
-                }
-                else
+                } else
                     j++;
             }
-            i=0;
-            j=0;
+            i = 0;
+            j = 0;
         }
     }
-    public void equalList(List<Chromosome4> inserted, List<Chromosome4> insert){
+
+    public void equalList(List<Chromosome4> inserted, List<Chromosome4> insert) {
         int i = 0;
         inserted.clear();
-        while(i<insert.size()){
+        while (i < insert.size()) {
             inserted.add(insert.get(i));
             i++;
         }
     }
-    public Chromosome4 findSolution(List<Chromosome4> chromosome4s){
+
+    public Chromosome4 findSolution(List<Chromosome4> chromosome4s) {
         int i = 0;
-        int j=0;
+        int j = 0;
         Chromosome4 solution = new Chromosome4();
         double highest = chromosome4s.get(0).getFitness();
-        while(i<chromosome4s.size()){
-            if(highest<chromosome4s.get(i).getFitness()){
-                highest=chromosome4s.get(i).getFitness();
-            }
-            else
+        while (i < chromosome4s.size()) {
+            if (highest < chromosome4s.get(i).getFitness()) {
+                highest = chromosome4s.get(i).getFitness();
+            } else
                 i++;
         }
-        while(j<chromosome4s.size()){
-            if(highest==chromosome4s.get(j).getFitness()){
-                solution=chromosome4s.get(j);
+        while (j < chromosome4s.size()) {
+            if (highest == chromosome4s.get(j).getFitness()) {
+                solution = chromosome4s.get(j);
                 j++;
-            }
-            else
+            } else
                 j++;
         }
         return solution;
     }
-    public void showSolution(Chromosome4 solution){
+
+    public void showSolution(Chromosome4 solution) {
 
         System.out.println("Solusi");
         System.out.println("Fitness :" + solution.getFitness());

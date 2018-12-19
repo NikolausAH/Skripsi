@@ -12,7 +12,7 @@ public class Main {
         int population = 100;
         int selection = 80;
         Double mutationProbability = 0.8;
-        int generation = 1000;
+        int generation = 100;
         if (slidingWindow == 2) {
             System.out.println("Sliding Window 2, Prediksi dollar");
             Chromosome2 solution;
